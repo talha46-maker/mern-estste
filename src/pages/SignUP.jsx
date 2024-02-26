@@ -29,7 +29,7 @@ export default function SignUp() {
         body: JSON.stringify(formData),
       });
       const data = await res.json();
-
+console.log("talha data; data: " + data);
       if (!res.ok) {
         throw new Error(data.message || 'Something went wrong');
       }
