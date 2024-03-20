@@ -1,36 +1,47 @@
 /*
-import { configureStore } from '@reduxjs/toolkit'
-import { buildGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware'
-import { useReducer } from 'react'
-import userReducer from  './user/userSlice';
+import { configureStore,  } from '@reduxjs/toolkit';
 
+import  useReducer  from './user/userSlice';
+
+ 
 export const store = configureStore({
   reducer: {user:useReducer},
-  middleware:(buildGetDefaultMiddleware)=>buildGetDefaultMiddleware({
+  middleware:(GetDefaultMiddleware)=>GetDefaultMiddleware({
     serializableCheck:false,
   }),
-})
+});
 */
 
+////////////////////////////////////////////////////////////////////////
+
+// import{ configureStore }from '@reduxjs/toolkit';
+// const store = configureStore({
+//   reducer:{
+
+//   }
+// });
+// export default store;
+
+///////////////////////////////////////////////////////////////////////////
 
 
 
 
-import { configureStore } from '@reduxjs/toolkit';
-
-//import { useDispatch } from 'react-redux';//
-import userReducer from './user/userSlice';
-
-// eslint-disable-next-line no-undef
-export const store = configureStore({
-  reducer: {
-user:userReducer
-  },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware({
-    serializableCheck: false,
-  })
-});
-
-//export const useAppDispatch = () => useDispatch();//
 
 
+
+
+
+// import { configureStore } from '@reduxjs/toolkit';
+// import userReducer from './user/userSlice'; // Importing the default export (reducer) from userSlice.js
+
+
+
+// export const store = configureStore({
+//   reducer: {
+//     user: userReducer, // Assigning the userReducer to the 'user' key in the store's reducer
+//   },
+//   middleware: (getDefaultMiddleware) => getDefaultMiddleware({
+//     serializableCheck: false,
+//   }),
+// });

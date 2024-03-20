@@ -1,47 +1,59 @@
 
-import { createSlice } from "@reduxjs/toolkit";
-const initialstate={
-    currentUser:null,
-    console:null,
-    loading:false,
-};
-const userSlice= createSlice({
-    name:'user',
-    initialstate,
-    reducers: { 
-        
-        
-        signInStart:(start)=>{
-             start.loading = true;
-},
-signInSuccess:(state,action) =>{
+// import { createSlice } from "@reduxjs/toolkit";
 
-state.currentUser=action.payload;
-    state.loading = false;
-    state.error=null;
- },
+// const initialstate = {
+//   currentUser: null,
+//   console: null,
+//   loading: false,
+// };
 
- 
-        signInFailure:(state,action) =>{
-            state.error=action.payload;
-          state.loading = false; 
-        }
+// const userSlice = createSlice({
+//   name: "user",
+//   initialstate,
+//   reducers: {
+//     signInStart: (start) => {
+//       start.loading = true;
+//     },
+//     signInSuccess: (state, action) => {
+//       state.currentUser = action.payload;
+//       state.loading = false;
+//       state.error = null;
+//     },
 
-      
-    }
-});
+//     signInFailure: (state, action) => {
+//       state.error = action.payload;
+//       state.loading = false;
+//     }
+//   }
+// });
+
+// export const { signInStart, signInSuccess, signInFailure } = userSlice.actions;
+
+// export default userSlice.reducer;
+
+/////////////////////////////////////////////////////////////////////////////////
+// import { createSlice } from "@reduxjs/toolkit";
+// const initialstate ={
+
+//     status :false,
+//     userData:null
+// }
+// const authSlice =createSlice({
+//     name:"auth",
+//     initialState,
+//     reducers:{
+//         login:( state, action )=>{
+//             state.status=true;
+//             state.userData =action.payload.userData;
+//         },
+//         logout:(state)=>{
+//             state.status=false;
+//             state.userData=null;
 
 
-export const {signInStart , signInSuccess,signInFailure}=userSlice.actions;
-export default userSlice.reducer;
-
-/*
-          
-       
-    
- 
-
-*/ 
-
-
-
+//         }     
+//     }
+// })
+// export const {login,logout  } = authSlice.actions;
+// export default authSlice.reducer;
+//////////////////////////////////////////////////////////
