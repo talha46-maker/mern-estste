@@ -1,120 +1,55 @@
-import React from 'react'
+import React from 'react'; // Add this line to import React
+
+
+import {useSelector} from 'react-redux'
 
 export default function Profile() {
-  return (
-    <div>
-      Profile
-      Certainly! Real estate websites play a crucial role in connecting buyers, sellers, and renters with properties. Let’s explore some key aspects of effective real estate website content:
 
-Unique Property Descriptions:
-When showcasing properties, it’s essential to create compelling and unique descriptions for each listing. Highlight the property’s features, amenities, and any special characteristics that set it apart.
-For example, instead of simply stating “3-bedroom house,” consider adding details like “Charming 3-bedroom home with a spacious backyard and updated kitchen.”
-Local Market Knowledge:
-Real estate websites should provide insight into the local market. Share information about neighborhoods, schools, transportation, and nearby amenities.
-Buyers and renters often seek details on safety, schools, and lifestyle. Include relevant information to help them make informed decisions.
-Visuals Matter:
-High-quality images and videos are essential. Showcase the property’s interior, exterior, and any unique features.
-Virtual tours, floor plans, and 360-degree views enhance the user experience. Visuals create an emotional connection and encourage further exploration.
-Clear Calls to Action (CTAs):
-Encourage user engagement with clear CTAs. Examples include:
-“Schedule a Viewing”
-“Request More Information”
-“Explore Similar Properties”
-Make these buttons prominent and strategically placed throughout the website.
-Property Search Functionality:
-Implement an intuitive property search feature. Users should be able to filter listings based on criteria such as location, price range, property type, and amenities.
-Consider using a “split view” layout that displays property search results alongside a map.
-Testimonials and Social Proof:
-Include client testimonials and success stories. Positive reviews build trust and credibility.
-Videos or written testimonials from satisfied clients can reinforce your expertise and reliability.Certainly! Real estate websites play a crucial role in connecting buyers, sellers, and renters with properties. Let’s explore some key aspects of effective real estate website content:
+const {currentUser} = useSelector((state) => state.user)
 
-Unique Property Descriptions:
-When showcasing properties, it’s essential to create compelling and unique descriptions for each listing. Highlight the property’s features, amenities, and any special characteristics that set it apart.
-For example, instead of simply stating “3-bedroom house,” consider adding details like “Charming 3-bedroom home with a spacious backyard and updated kitchen.”
-Local Market Knowledge:
-Real estate websites should provide insight into the local market. Share information about neighborhoods, schools, transportation, and nearby amenities.
-Buyers and renters often seek details on safety, schools, and lifestyle. Include relevant information to help them make informed decisions.
-Visuals Matter:
-High-quality images and videos are essential. Showcase the property’s interior, exterior, and any unique features.
-Virtual tours, floor plans, and 360-degree views enhance the user experience. Visuals create an emotional connection and encourage further exploration.
-Clear Calls to Action (CTAs):
-Encourage user engagement with clear CTAs. Examples include:
-“Schedule a Viewing”
-“Request More Information”
-“Explore Similar Properties”
-Make these buttons prominent and strategically placed throughout the website.
-Property Search Functionality:
-Implement an intuitive property search feature. Users should be able to filter listings based on criteria such as location, price range, property type, and amenities.
-Consider using a “split view” layout that displays property search results alongside a map.
-Testimonials and Social Proof:
-Include client testimonials and success stories. Positive reviews build trust and credibility.
-Videos or written testimonials from satisfied clients can reinforce your expertise and reliability.Certainly! Real estate websites play a crucial role in connecting buyers, sellers, and renters with properties. Let’s explore some key aspects of effective real estate website content:
+return (
 
-Unique Property Descriptions:
-When showcasing properties, it’s essential to create compelling and unique descriptions for each listing. Highlight the property’s features, amenities, and any special characteristics that set it apart.
-For example, instead of simply stating “3-bedroom house,” consider adding details like “Charming 3-bedroom home with a spacious backyard and updated kitchen.”
-Local Market Knowledge:
-Real estate websites should provide insight into the local market. Share information about neighborhoods, schools, transportation, and nearby amenities.
-Buyers and renters often seek details on safety, schools, and lifestyle. Include relevant information to help them make informed decisions.
-Visuals Matter:
-High-quality images and videos are essential. Showcase the property’s interior, exterior, and any unique features.
-Virtual tours, floor plans, and 360-degree views enhance the user experience. Visuals create an emotional connection and encourage further exploration.
-Clear Calls to Action (CTAs):
-Encourage user engagement with clear CTAs. Examples include:
-“Schedule a Viewing”
-“Request More Information”
-“Explore Similar Properties”
-Make these buttons prominent and strategically placed throughout the website.
-Property Search Functionality:
-Implement an intuitive property search feature. Users should be able to filter listings based on criteria such as location, price range, property type, and amenities.
-Consider using a “split view” layout that displays property search results alongside a map.
-Testimonials and Social Proof:
-Include client testimonials and success stories. Positive reviews build trust and credibility.
-Videos or written testimonials from satisfied clients can reinforce your expertise and reliability.Certainly! Real estate websites play a crucial role in connecting buyers, sellers, and renters with properties. Let’s explore some key aspects of effective real estate website content:
+<div className='p-3 max-w-lg mx-auto'>
 
-Unique Property Descriptions:
-When showcasing properties, it’s essential to create compelling and unique descriptions for each listing. Highlight the property’s features, amenities, and any special characteristics that set it apart.
-For example, instead of simply stating “3-bedroom house,” consider adding details like “Charming 3-bedroom home with a spacious backyard and updated kitchen.”
-Local Market Knowledge:
-Real estate websites should provide insight into the local market. Share information about neighborhoods, schools, transportation, and nearby amenities.
-Buyers and renters often seek details on safety, schools, and lifestyle. Include relevant information to help them make informed decisions.
-Visuals Matter:
-High-quality images and videos are essential. Showcase the property’s interior, exterior, and any unique features.
-Virtual tours, floor plans, and 360-degree views enhance the user experience. Visuals create an emotional connection and encourage further exploration.
-Clear Calls to Action (CTAs):
-Encourage user engagement with clear CTAs. Examples include:
-“Schedule a Viewing”
-“Request More Information”
-“Explore Similar Properties”
-Make these buttons prominent and strategically placed throughout the website.
-Property Search Functionality:
-Implement an intuitive property search feature. Users should be able to filter listings based on criteria such as location, price range, property type, and amenities.
-Consider using a “split view” layout that displays property search results alongside a map.
-Testimonials and Social Proof:
-Include client testimonials and success stories. Positive reviews build trust and credibility.
-Videos or written testimonials from satisfied clients can reinforce your expertise and reliability.Certainly! Real estate websites play a crucial role in connecting buyers, sellers, and renters with properties. Let’s explore some key aspects of effective real estate website content:
+<h1 className='text-3xl font-semibold text-center my-7'>Profile</h1>
 
-Unique Property Descriptions:
-When showcasing properties, it’s essential to create compelling and unique descriptions for each listing. Highlight the property’s features, amenities, and any special characteristics that set it apart.
-For example, instead of simply stating “3-bedroom house,” consider adding details like “Charming 3-bedroom home with a spacious backyard and updated kitchen.”
-Local Market Knowledge:
-Real estate websites should provide insight into the local market. Share information about neighborhoods, schools, transportation, and nearby amenities.
-Buyers and renters often seek details on safety, schools, and lifestyle. Include relevant information to help them make informed decisions.
-Visuals Matter:
-High-quality images and videos are essential. Showcase the property’s interior, exterior, and any unique features.
-Virtual tours, floor plans, and 360-degree views enhance the user experience. Visuals create an emotional connection and encourage further exploration.
-Clear Calls to Action (CTAs):
-Encourage user engagement with clear CTAs. Examples include:
-“Schedule a Viewing”
-“Request More Information”
-“Explore Similar Properties”
-Make these buttons prominent and strategically placed throughout the website.
-Property Search Functionality:
-Implement an intuitive property search feature. Users should be able to filter listings based on criteria such as location, price range, property type, and amenities.
-Consider using a “split view” layout that displays property search results alongside a map.
-Testimonials and Social Proof:
-Include client testimonials and success stories. Positive reviews build trust and credibility.
-Videos or written testimonials from satisfied clients can reinforce your expertise and reliability.
-    </div>
-  )
+<form className='flex flex-col gap-4' >
+
+<img src={currentUser.avatar} alt="profile"
+
+className='rounded-full h-24 w-24 object-cover
+
+cursor-pointer self-center mt-2' />
+
+<input type="text" placeholder='username'id='username' 
+
+className='border p-3 rounded-lg' />
+
+<input type="email" placeholder='email'id='email' 
+
+className='border p-3 rounded-lg' />
+
+<input type="password" placeholder='password'id='password' 
+
+className='border p-3 rounded-lg'/>
+
+<button className='bg-slate-700 text-white rounded-lg p-3 uppercase
+ hover:opacity-95 disabled:opacity-80'>update</button>
+
+</form>
+
+
+
+<div className="flex justify-between mt-5">
+
+<span className='text-red-700 cursor-pointer'>Delete account</span>
+
+<span className='text-red-700 cursor-pointer'>Sign
+
+out</span>
+
+</div>
+
+</div>
+)
 }
